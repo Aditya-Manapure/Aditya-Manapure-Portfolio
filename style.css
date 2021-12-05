@@ -428,7 +428,7 @@ form textarea {
     justify-content: center;
   }
   .skills-container {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
   .skills-img img {
     padding-left: 0;
@@ -437,6 +437,9 @@ form textarea {
     padding-top: 2rem;
     display: flex;
     justify-content: center;
+  }
+  footer{
+    flex-direction: column;
   }
 }
 @media (max-width: 340px) {
