@@ -5,6 +5,14 @@ window.addEventListener('scroll', () => {
 });
 
 
+
+menu.onclick = () => {
+    navbar.classList.toggle('active');
+}
+window.onscroll = () => {
+    navbar.classList.remove('active');
+}
+
 function validateForm() {
     let fname = document.forms["myForm"]["Name"].value;
     let mail = document.forms["myForm"]["email"].value;
